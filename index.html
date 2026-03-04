@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="flex flex-col">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,16 +13,16 @@
     <title>Página de Receitas</title>
   </head>
   <body
-    class="bg-[url('assets/bg-image.jpg')] bg-yellow-700/40 bg-blend-multiply bg-cover bg-center py-6 px-12 md:py-12 md:px-60 flex items-center justify-center font-[Alice] leading-[150%]"
+    class="bg-[url('assets/bg-image.jpg')] bg-yellow-200/10 bg-blend-multiply bg-cover bg-center min-h-screen py-6 px-12 md:py-12 md:px-60 flex flex-col items-center font-[Alice] leading-[150%]"
   >
     <div
       id="Page"
-      class="bg-[#F0E8C2] rounded- p-7 md:p-24 flex flex-col items-center justify-center gap-12 rounded-2xl"
+      class="bg-amber-200/50 border border-[#573A37] rounded- p-7 md:p-24 flex flex-col items-center justify-center gap-12 rounded-2xl mx-auto"
     >
       <img src="assets/main-image.png" alt="Cupcake de café com chantilly" />
       <main class="space-y-6">
         <section id="About">
-          <h1 class="text-[40px] leading-[140%] text-[#291B1A] mb-2">
+          <h1 class="text-[40px] leading-[140%] text-[#291B1A] mb-4">
             Cupcake de café com chantilly
           </h1>
           <p class="text-[#573A37]">
@@ -30,7 +30,7 @@
             fácil e ainda por cima fica maravilhoso, com certeza vai
             impressionar. Faz e depois me conta o que achou!
           </p>
-          <p class="text-[#573A37]">
+          <p class="text-[#573A37] mt-12">
             Tempo: 1h10 <br />
             Rendimento: 12 porções <br />
             Dificuldade: fácil
@@ -38,7 +38,7 @@
         </section>
 
         <section id="Ingredients">
-          <h2 class="text-[24px] text-[#291B1A] mb-2">Ingredientes</h2>
+          <h2 class="text-[24px] text-[#291B1A] mb-4">Ingredientes</h2>
           <ul class="text-[#573A37] list-disc list-inside">
             <li>1 e 1/2 xícara (chá) de água morna</li>
             <li>1 colher (sopa) de café solúvel</li>
@@ -58,7 +58,7 @@
         </section>
 
         <section id="Modo_De_Preparo">
-          <h2 class="text-[24px] text-[#291B1A] mb-2">Modo de Preparo</h2>
+          <h2 class="text-[24px] text-[#291B1A] mb-4">Modo de Preparo</h2>
           <p class="text-[#573A37]">
             No liquidificador, bata a água, o café solúvel, os ovos, o óleo, o
             açúcar e o chocolate em pó até ficar homogêneo. Transfira para uma
@@ -81,5 +81,12 @@
       </main>
     </div>
     <script type="module" src="/src/main.jsx"></script>
+    <footer class="text-center text-[#291B1A] mt-12">
+      <p>
+        Feito com 🤎 pela RocketSeat<br />
+        e<br />
+        Desenvolvido por Pedro Paulo.
+      </p>
+    </footer>
   </body>
 </html>
