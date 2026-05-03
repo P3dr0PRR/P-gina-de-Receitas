@@ -17,6 +17,14 @@ Página de receita do **Cupcake de café com chantilly**, desenvolvida como proj
 
 ---
 
+## Descrição rápida
+
+Projeto front-end de uma página de receita culinária, com foco em layout visual, organização de conteúdo e responsividade. A aplicação apresenta a receita de **Cupcake de café com chantilly**, incluindo ingredientes, tempo de preparo, rendimento, dificuldade e modo de preparo em etapas.
+
+Foi desenvolvido com **React** e **Vite**, estilizado com **Tailwind CSS** e publicado na **Vercel**. O objetivo principal foi praticar construção de interface moderna e semântica, além de reforçar conceitos de estilização utility-first e estruturação de projeto front-end.
+
+---
+
 ## Preview
 
 <div align="center">
